@@ -85,7 +85,7 @@ const Experience = () => {
           variant="link"
           className="flex items-center text-slate-400 p-0 hover:scale-110 hover:text-[#915eff] transition-transform duration-300 underline"
           onClick={() =>
-            window.open("src/assets/ISMAIL GRIRA Resume.pdf", "_blank")
+            window.open("https://drive.google.com/file/d/1PyLd3R-dq0rAio6AfpYi97w1ecjaHW_T/view?usp=sharing", "_blank")
           }
         >
           View Full Résumé
@@ -96,7 +96,7 @@ const Experience = () => {
           className="flex items-center text-slate-400 p-0 hover:scale-110 hover:text-[#915eff] transition-transform duration-300 underline"
           onClick={() =>
             window.open(
-              "src/assets/ISMAIL GRIRA Resume  - Copy FR.pdf",
+              "https://drive.google.com/file/d/1QJDZN7pZnHKzJQc3JiVkd0x28IRjmELh/view?usp=sharing",
               "_blank"
             )
           }
