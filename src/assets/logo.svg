@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1080" height="1080" viewBox="0 0 1080 1080" xml:space="preserve">
+<desc>Created with Fabric.js 5.2.4</desc>
+<defs>
+</defs>
+<rect x="0" y="0" width="100%" height="100%" fill="transparent"></rect>
+<g transform="matrix(1 0 0 1 540 540)" id="320b808f-68d2-4947-ad4b-1e6e7f804fa3"  >
+</g>
+<g transform="matrix(1 0 0 1 540 540)" id="e1660f38-e954-4c78-988f-464b2e4756aa"  >
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,74,63); fill-rule: nonzero; opacity: 1; visibility: hidden;" vector-effect="non-scaling-stroke"  x="-540" y="-540" rx="0" ry="0" width="1080" height="1080" />
+</g>
+<g transform="matrix(15.07 0 0 15.07 538.94 540.94)" id="02a60ac7-7413-4367-af8e-78cb3380ae9e"  >
+<circle style="stroke: rgb(0,0,0); stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,74,63); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  cx="0" cy="0" r="35" />
+</g>
+<g transform="matrix(5.97 0 0 6.6 662.2 561.46)" style="filter: url(#SVGID_211);" id="7436fccd-3346-411d-82fd-3e2efe18a7c7"  >
+<filter id="SVGID_211" y="-42%" height="184%" x="-35%" width="170%" >
+	<feGaussianBlur in="SourceAlpha" stdDeviation="9.5"></feGaussianBlur>
+	<feOffset dx="-7" dy="-7" result="oBlur" ></feOffset>
+	<feFlood flood-color="rgb(0,0,0)" flood-opacity="0.84"/>
+	<feComposite in2="oBlur" operator="in" />
+	<feMerge>
+		<feMergeNode></feMergeNode>
+		<feMergeNode in="SourceGraphic"></feMergeNode>
+	</feMerge>
+</filter>
+		<text xml:space="preserve" font-family="Raleway" font-size="105" font-style="normal" font-weight="900" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-59.12" y="32.98" >I</tspan><tspan x="-18.48" y="32.98" >G</tspan></text>
+</g>
+<g transform="matrix(0 0 0 0 0 0)"  >
+<g style=""   >
+</g>
+</g>
+<g transform="matrix(0 0 0 0 0 0)"  >
+<g style=""   >
+</g>
+</g>
+<g transform="matrix(0 0 0 0 0 0)"  >
+<g style=""   >
+</g>
+</g>
+</svg>
