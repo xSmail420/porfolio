@@ -29,7 +29,7 @@ import tesla from "./company/tesla.png";
 import megapc from "./company/megapc.webp";
 import upwork from "./company/upwork.png";
 
-import carrent from "./movies sweeper.png";
+import carrent from "./moviessweeper.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
