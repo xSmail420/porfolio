@@ -215,7 +215,7 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/xSmail420",
   },
   {
     name: "2022 World Cup Explorer",
@@ -236,7 +236,7 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/xSmail420",
   },
   {
     name: "PcBuilder.ai",
@@ -257,7 +257,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/xSmail420",
   },
 ];
 
