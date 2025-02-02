@@ -120,7 +120,7 @@ const experiences = [
     title: "AI/ML Engineer",
     company_name: "Vast New Telecom",
     icon: vastnewtelecom,
-    iconBg: "#1E293B",
+    iconBg: "#E6DEDD",
     date: "November 2024 - Present",
     points: [
       "Developing an AI-based text-to-speech and translation model for multilingual communication.",
