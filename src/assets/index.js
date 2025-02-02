@@ -28,6 +28,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import megapc from "./company/megapc.webp";
 import upwork from "./company/upwork.png";
+import vastnewtelecom from "./company/upwork.png";
 
 import carrent from "./moviessweeper.png";
 import jobit from "./jobit.png";
@@ -62,6 +63,7 @@ export {
   tesla,
   megapc,
   upwork,
+  vastnewtelecom,
   carrent,
   jobit,
   tripguide,

@@ -18,6 +18,7 @@ import {
   python,
   upwork,
   megapc,
+  vastnewtelecom,
   ShopmyInfluence,
   carrent,
   jobit,
@@ -116,6 +117,23 @@ const technologies = [
 
 const experiences = [
   {
+    title: "AI/ML Engineer",
+    company_name: "Vast New Telecom",
+    icon: vastnewtelecom,
+    iconBg: "#1E293B",
+    date: "November 2024 - Present",
+    points: [
+      "Developing an AI-based text-to-speech and translation model for multilingual communication.",
+      "Designing and optimizing AI systems for natural language processing (NLP) and speech synthesis.",
+      "Building scalable pipelines for AI model training and deployment.",
+      "Integrating AI modules into company products and services.",
+      "Developing and maintaining high-performance REST APIs using FastAPI.",
+      "Architecting and optimizing backend systems for robustness and scalability.",
+      "Managing SQL (PostgreSQL), NoSQL (MongoDB), and vector databases (Qdrant).",
+      "Utilizing DevOps tools like Docker and CI/CD for service monitoring and automation.",
+    ],
+  },
+  {
     title: "Scripting and Automation",
     company_name: "Freelance on Upwork",
     icon: upwork,
@@ -167,6 +185,7 @@ const experiences = [
     ],
   },
 ];
+
 
 const testimonials = [
   {
