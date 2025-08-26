@@ -1,4 +1,5 @@
-import logo from "./logo.svg";
+//import logo from "./logo.svg";
+const logo = 'https://avatars.githubusercontent.com/u/220884359?s=96&v=4'
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
