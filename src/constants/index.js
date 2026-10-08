@@ -20,6 +20,7 @@ import {
   megapc,
   vastnewtelecom,
   ShopmyInfluence,
+  sap,
   carrent,
   jobit,
   tripguide,
@@ -117,11 +118,37 @@ const technologies = [
 
 const experiences = [
   {
+    title: "STAR Student",
+    company_name: "SAP",
+    icon: sap,
+    iconBg: "#0070F2",
+    date: "September 2026 - Present",
+    points: [
+      "Joined SAP's Student Training and Rotation (STAR) program.",
+    ],
+  },
+  {
+    title: "Data Scientist",
+    company_name: "ShopMyInfluence",
+    icon: ShopmyInfluence,
+    iconBg: "#383E56",
+    date: "July 2025 - August 2026",
+    points: [
+      "Built smi_products_engine from scratch: a full data platform powering a marketplace product recommendation engine, covering ingestion, transformation, storage, indexing, training, and inference.",
+      "Developed Airflow-orchestrated ingestion pipelines aggregating product catalogs from multiple affiliate platforms (Awin, CJ Affiliate, TradeDoubler, Rakuten Advertising, Kwanko) via Playwright, partner APIs, and Gemini-1.5-Flash.",
+      "Designed hybrid storage architecture with ClickHouse for large-scale analytics and OpenSearch for real-time search and catalog indexing; set up CDC with PeerDB between PostgreSQL and ClickHouse, with Redis for caching and real-time processing.",
+      "Developed a collaborative filtering recommendation engine using neural networks, orchestrated with ZenML, with experiments tracked via MLflow and artifacts stored in MinIO.",
+      "Applied unsupervised clustering to segment influencers by interests, audience, and collaboration history to improve recommendation personalization.",
+      "Deployed real-time monitoring of the full data and ML infrastructure using Prometheus and Grafana.",
+      "Contributed to dm-reach-flow (ReachFlowDM): automated large-scale Instagram DM prospecting with n8n and APIFY, including automated PDF campaign reporting sent via SMTP.",
+    ],
+  },
+  {
     title: "AI/ML Engineer",
     company_name: "Vast New Telecom",
     icon: vastnewtelecom,
     iconBg: "#E6DEDD",
-    date: "November 2024 - Present",
+    date: "November 2024 - July 2025",
     points: [
       "Developing an AI-based text-to-speech and translation model for multilingual communication.",
       "Designing and optimizing AI systems for natural language processing (NLP) and speech synthesis.",
