@@ -1,0 +1,254 @@
+%-------------------------
+% Resume in Latex
+% Based off of: https://github.com/jakeryang/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[french]{babel}
+\usepackage{tabularx}
+
+% fontawesome
+\usepackage{fontawesome5}
+
+% fixed width
+\usepackage[scale=0.90,lf]{FiraMono}
+
+% light-grey
+\definecolor{light-grey}{gray}{0.83}
+\definecolor{dark-grey}{gray}{0.3}
+\definecolor{text-grey}{gray}{.08}
+
+\DeclareRobustCommand{\ebseries}{\fontseries{eb}\selectfont}
+\DeclareTextFontCommand{\texteb}{\ebseries}
+
+% custom underline
+\usepackage{contour}
+\usepackage[normalem]{ulem}
+\renewcommand{\ULdepth}{1.8pt}
+\contourlength{0.8pt}
+\newcommand{\myuline}[1]{%
+  \uline{\phantom{#1}}%
+  \llap{\contour{white}{#1}}%
+}
+
+% custom font: helvetica-style
+\usepackage{tgheros}
+\renewcommand*\familydefault{\sfdefault}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{0in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% sans serif sections
+\titleformat{\section}{
+    \bfseries \vspace{2pt} \raggedright \large
+}{}{0em}{}[\color{light-grey} {\titlerule[2pt]} \vspace{-4pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-1pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & {\color{dark-grey}\small #2}\vspace{1pt}\\
+      \textit{#3} & {\color{dark-grey} \small #4}\\
+    \end{tabular*}\vspace{-4pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+      #1 & {\color{dark-grey}\small #2} \\
+    \end{tabular*}\vspace{-4pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{0pt}}
+
+\color{text-grey}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge Ismail Grira} \\ \vspace{5pt}
+    \small \faPhone* \texttt{+49 152 03093552} \hspace{1pt} $|$
+    \hspace{1pt} \faEnvelope \hspace{2pt} \texttt{griraismail@gmail.com} \hspace{1pt} $|$
+    \hspace{1pt} \faLinkedin \hspace{2pt} \href{https://linkedin.com/in/ismail-grira}{\texttt{ismail-grira}} \hspace{1pt} $|$
+    \hspace{1pt} \faGithub \hspace{2pt} \href{https://github.com/xSmail420}{\texttt{xSmail420}}
+    \\ \vspace{-3pt}
+\end{center}
+
+%-----------PROFIL-----------
+\section{PROFIL}
+Ingénieur logiciel et data scientist avec une expérience concrète dans la conception de systèmes AI/ML en production, d'applications full-stack et de pipelines d'automatisation. Mes compétences couvrent les moteurs de recommandation de bout en bout, les pipelines NLP et speech synthesis, le développement de REST APIs, les applications mobiles cross-platform et l'automatisation à grande échelle. Actuellement étudiant dans le programme STAR de SAP.
+
+%-----------EXPÉRIENCE-----------
+\section{EXPÉRIENCE}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {SAP}{Sept. 2026 -- Présent}
+      {STAR Student}{}
+      \resumeItemListStart
+        \resumeItem{Sélectionné pour le programme Student Training and Rotation (STAR) de SAP, avec une exposition au développement de logiciels d'entreprise et à l'écosystème produit de SAP.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {ShopMyInfluence}{Juil. 2025 -- Août 2026}
+      {Data Scientist --- Agence Marketing}{France -- Tunisie}
+
+      % --- Projet 1 ---
+      \vspace{4pt}
+      \begin{tabular*}{\textwidth}[t]{@{}p{0.55\textwidth}@{\extracolsep{\fill}}p{0.22\textwidth}@{}r@{}}
+        \small\textbf{Système de Recommandation Marketplace (smi\_products\_engine)} &
+        \small\textit{\color{dark-grey}Airflow, ClickHouse, OpenSearch, ZenML, MLflow} &
+        {\color{dark-grey}\small Juil. 2025 -- Août 2026}
+      \end{tabular*}\vspace{-4pt}
+
+      \resumeItemListStart
+        \resumeItem{Conçu et développé \textbf{smi\_products\_engine} from scratch --- une plateforme de données complète alimentant un moteur de recommandation produits, couvrant l'intégralité du cycle de vie de la donnée~: ingestion, transformation, stockage, indexation, entraînement et inférence.}
+        \resumeItem{Développé des pipelines d'ingestion orchestrés avec \textbf{Apache Airflow} pour agréger des catalogues produits depuis plusieurs plateformes d'affiliation (\textbf{Awin, CJ Affiliate, TradeDoubler, Rakuten Advertising, Kwanko}) via \textbf{Playwright}, des APIs partenaires et \textbf{Gemini-1.5-Flash}.}
+        \resumeItem{Mis en place une architecture de stockage hybride avec \textbf{ClickHouse} pour l'analytique à grande échelle et \textbf{OpenSearch} pour la recherche temps réel et l'indexation du catalogue~; configuré le \textbf{CDC} via \textbf{PeerDB} entre \textbf{PostgreSQL} et \textbf{ClickHouse}, avec \textbf{Redis} pour le cache et le traitement temps réel.}
+        \resumeItem{Implémenté la synchronisation continue des données transactionnelles (conversions, ventes, commissions, paiements) depuis les différentes plateformes d'affiliation pour garantir la cohérence des données.}
+        \resumeItem{Développé un moteur de recommandation basé sur le \textbf{collaborative filtering} par réseaux de neurones, orchestré avec \textbf{ZenML}, expériences suivies via \textbf{MLflow} et artefacts stockés dans \textbf{MinIO}.}
+        \resumeItem{Appliqué des algorithmes de clustering non supervisé pour segmenter les influenceurs par centres d'intérêt, audience et historique de collaboration afin d'améliorer la personnalisation.}
+        \resumeItem{Déployé un monitoring temps réel de l'ensemble de l'infrastructure Data et ML avec \textbf{Prometheus} et \textbf{Grafana}.}
+      \resumeItemListEnd
+
+      % --- Projet 2 ---
+      \vspace{2pt}
+      \begin{tabular*}{\textwidth}[t]{@{}p{0.55\textwidth}@{\extracolsep{\fill}}p{0.22\textwidth}@{}r@{}}
+        \small\textbf{Pipeline d'Automatisation Instagram DM (dm-reach-flow)} &
+        \small\textit{\color{dark-grey}n8n, APIFY, Kolsquare, Python} &
+        {\color{dark-grey}\small 2025}
+      \end{tabular*}\vspace{-4pt}
+      \resumeItemListStart
+        \resumeItem{Automatisé un workflow de prospection à grande échelle via Instagram Direct Messages en utilisant \textbf{n8n} et l'API \textbf{APIFY Instagram Auto DMs}~; filtrage des influenceurs depuis \textbf{Kolsquare} selon un ciblage multi-critères (centres d'intérêt, taux d'engagement, niche).}
+        \resumeItem{Développé un module de reporting automatisé générant un \textbf{rapport PDF de campagne} --- DMs envoyés, taux de livraison, taux de réponse, KPIs opt-in --- diffusé aux parties prenantes par email \textbf{SMTP} via \textbf{n8n}.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Vast New Telecom}{Nov. 2024 -- Juil. 2025}
+      {Ingénieur AI/ML}{}
+      \resumeItemListStart
+        \resumeItem{Développé un modèle de text-to-speech et de traduction basé sur l'IA pour la communication multilingue, en utilisant des techniques de NLP et de speech synthesis.}
+        \resumeItem{Conçu des pipelines scalables pour l'entraînement et le déploiement de modèles~; intégré des modules IA dans les produits et services de l'entreprise.}
+        \resumeItem{Développé et maintenu des REST APIs haute performance avec \textbf{FastAPI}~; administré \textbf{PostgreSQL}, \textbf{MongoDB} et des bases de données vectorielles (\textbf{Qdrant}).}
+        \resumeItem{Utilisé \textbf{Docker} et des pipelines CI/CD pour la surveillance et l'automatisation du déploiement.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {MegaPc}{Janv. 2024 -- Juin 2024}
+      {Développeur Mobile $|$ Full Stack}{}
+      \resumeItemListStart
+        \resumeItem{Développé une solution basée sur l'IA pour générer des configurations PC personnalisées selon les préférences, le budget et l'usage de l'utilisateur.}
+        \resumeItem{Pris en charge le développement full-stack~: frontend, backend, design UX/UI avec \textbf{Figma}, gestion de base de données et pratiques DevOps.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {ShopMyInfluence}{Janv. 2023 -- Mars 2023}
+      {Développeur React Native}{}
+      \resumeItemListStart
+        \resumeItem{Développé une application mobile full-stack pour le suivi des activités des représentants et la gestion des tâches quotidiennes~; compatibilité multi-plateforme assurée.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Freelance sur Upwork}{Sept. 2022 -- Présent}
+      {Scripting et Automatisation}{}
+      \resumeItemListStart
+        \resumeItem{Livré des scripts d'automatisation et des scrapers de données pour des clients via \textbf{Playwright}, \textbf{Selenium} et Python~; amélioration des workflows et réduction des tâches manuelles.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {ShopMyInfluence}{Janv. 2022 -- Févr. 2022}
+      {Développeur Web}{}
+      \resumeItemListStart
+        \resumeItem{Développé un site web showroom en ligne~; administré la base de données et le serveur pour assurer le bon fonctionnement de la plateforme.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJETS-----------
+\section{PROJETS}
+    \resumeSubHeadingListStart
+
+      \resumeProjectHeading
+          {\textbf{Movie Sweeper} $|$ \textit{React Native, Firebase, Tailwind CSS}}{}
+          \resumeItemListStart
+            \resumeItem{Application mobile de découverte de films façon Tinder~; les utilisateurs swipent pour explorer des films, matchent avec des amis ayant les mêmes goûts et organisent des soirées cinéma grâce à la \textbf{MoviesDB API} et \textbf{Firebase} pour les interactions en temps réel.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{2022 World Cup Explorer} $|$ \textit{Angular, REST APIs, SCSS}}{2022}
+          \resumeItemListStart
+            \resumeItem{Application web couvrant les calendriers de matchs, stades, hôtels, billetterie, paris amicaux et statistiques de la Coupe du Monde FIFA 2022~; développée avec \textbf{Angular} et des RESTful APIs.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{PcBuilder.ai} $|$ \textit{Flutter, Express.js, AWS S3}}{2024}
+          \resumeItemListStart
+            \resumeItem{Application cross-platform propulsée par l'IA générant des configurations PC sur mesure selon les préférences, le budget et l'usage~; développée avec \textbf{Flutter}, un backend \textbf{Express.js} et \textbf{AWS S3} pour le stockage cloud.}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+%-----------COMPÉTENCES-----------
+\section{COMPÉTENCES}
+ \begin{itemize}[leftmargin=0in, label={}]
+    \small{\item{
+     \textbf{Langages de programmation} {: Python, JavaScript, TypeScript, Dart}\vspace{2pt} \\
+     \textbf{AI / ML} {: TensorFlow, PyTorch, scikit-learn, NLP, Speech Synthesis, Collaborative Filtering, ZenML, MLflow}\vspace{2pt} \\
+     \textbf{Data Engineering} {: Apache Airflow, ClickHouse, OpenSearch, PeerDB (CDC), Redis, MinIO}\vspace{2pt} \\
+     \textbf{Backend} {: FastAPI, Node.js, Express.js, REST APIs}\vspace{2pt} \\
+     \textbf{Frontend / Mobile} {: React, React Native, Flutter, Angular, Tailwind CSS}\vspace{2pt} \\
+     \textbf{Bases de données} {: PostgreSQL, MongoDB, Qdrant, MySQL, ClickHouse}\vspace{2pt} \\
+     \textbf{DevOps} {: Docker, Git, CI/CD, Prometheus, Grafana}\vspace{2pt} \\
+     \textbf{Automatisation \& Scraping} {: Playwright, Selenium, n8n, APIFY, Python scripting}
+    }}
+ \end{itemize}
+
+%-------------------------------------------
+\end{document}
